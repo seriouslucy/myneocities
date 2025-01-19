@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me</title>
+</head>
+<style>
+    
+    .rounded {
+      border-radius: 50%;
+    }
+    
+
+            body {
+                margin: 0;
+                background-color:#fceaff;
+                background-size: 100px;
+                background-image: url("/image/cloud4.gif");
+            }
+
+            * {
+                box-sizing: border-box;
+            }
+
+            #container {
+                max-width: 1200px;
+                margin: 0 auto;
+                
+            }
+
+            #container a {
+                color: white;
+                font-weight: bold;
+            }
+
+            #header {
+                width: 100%;
+                height: 150px;
+                background-image: var(--header-image);
+                background-size: 100%;
+            }
+
+   
+      
+
+            #flex {
+                display: flex;
+            }
+
+            aside {
+             
+                width: 200px;
+                padding: 20px;
+                font-size: smaller;
+            }
+
+            main {
+               font-size: 26px;
+                background-color: white;
+                flex: 1;
+                padding: 20px;
+                order: 2;
+                color: black;
+            }
+
+
+            */ #leftSidebar {
+                order: 1;
+            }
+
+            #rightSidebar {
+                order: 3;
+            }
+
+            footer {
+         
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+               
+            }
+
+             h1 {
+               color: black;
+  text-align: center;
+}
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: auto;
+    }
+          
+            h2,
+            h3 {
+                color: #fceaff;
+                text-align: center;
+            }
+
+            h1 {
+                font-size: 25px;
+                text-align: center;
+            }
+            .box {
+                background-color: #13092D;
+                border: 1px solid #ED64F5;
+                padding: 10px;
+            }
+
+            #topBar {
+                width: 100%;
+                height: 30px;
+                padding: 10px;
+                font-size: smaller;
+                background-color: #13092D;
+            }
+
+            footer {
+                width: 100%;
+                height: 40px;
+                padding: 10px;
+                text-align: center;
+            }
+
+
+            @media only screen and (max-width: 1100px) {
+                #flex {
+                    flex-wrap: wrap;
+                }
+
+                aside {
+                    width: 100%;
+                }
+
+                /* the order of the items is adjusted here for responsiveness!
+      since the sidebars would be too small on a mobile device.
+      feel free to play around with the order!
+      */
+                main {
+                    order: 1;
+                }
+
+                #leftSidebar {
+                    order: 2;
+                }
+
+                #rightSidebar {
+                    order: 3;
+                }
+
+                #navbar ul {
+                    flex-wrap: wrap;
+                }
+            }
+        </style>
+<body>
+    <h1>About seriouslucy</h1>
+    <div id="container">
+           <div id="headerArea">
+           </div>
+
+           <div id="flex">
+            <aside id="leftSidebar" style="margin-right: 10px;">
+                   <img src="image/websurfin.jpg" width="160" height="auto" class="rounded">
+            </aside>
+               
+            <main>
+               <h2>under construction</h2>
+                   <p>whats up....</p>
+    <p> hello im lucy im trying to figure out how to make a website im very new at this</p>
+                     
+    <p>things i like:</p>
+
+   <ul>
+     <li>livin</li>
+     <li>breathin</li>
+     <li>frozen grapes yum</li>
+   </ul>
+   <img src="image/walkWHT.gif" class="center">
+
+               </main>
+               
+           </div>
+          
+  <footer id="footer">
+ <a href="https://seriouslucy.neocities.org"><img src="image/Back_Clr.gif"></a>
+ </footer></div>
+</body>
+</html>

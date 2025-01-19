@@ -1,4 +1,13 @@
 
+@font-face{
+    font-family: ADD; 
+    src: url("/fonts/ADDSBP.TTF") format("truetype");
+}
+
+@font-face{
+  font-family: Venice;
+  src: url("/fonts/VeniceClassic.ttf") format("truetype");
+}
 
 
 .center {
