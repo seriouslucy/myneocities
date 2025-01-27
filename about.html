@@ -7,16 +7,17 @@
 </head>
 <style>
     
-    .rounded {
-      border-radius: 50%;
-    }
+            .rounded {
+            border-radius: 50%;
+            width: 200px;
+            padding: 20px;
+            }
     
 
             body {
-                margin: 0;
                 background-color:#fceaff;
-                background-size: 100px;
-                background-image: url("/image/cloud4.gif");
+                
+                background-image: url("/image/pinkhrtsbg.gif");
             }
 
             * {
@@ -58,19 +59,12 @@
             main {
                font-size: 26px;
                 background-color: white;
-                flex: 1;
-                padding: 20px;
+                border-radius: 10px;
+                padding: 50px;
+                margin: 10px;
+
                 order: 2;
                 color: black;
-            }
-
-
-            */ #leftSidebar {
-                order: 1;
-            }
-
-            #rightSidebar {
-                order: 3;
             }
 
             footer {
@@ -78,20 +72,19 @@
                 width: 100%;
                 height: 40px;
                 padding: 10px;
-                text-align: center;
                
             }
 
              h1 {
                color: black;
-  text-align: center;
+                text-align: center;
 }
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: auto;
-    }
+            .center {
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+            width: auto;
+                }
           
             h2,
             h3 {
@@ -103,19 +96,8 @@
                 font-size: 25px;
                 text-align: center;
             }
-            .box {
-                background-color: #13092D;
-                border: 1px solid #ED64F5;
-                padding: 10px;
-            }
+            
 
-            #topBar {
-                width: 100%;
-                height: 30px;
-                padding: 10px;
-                font-size: smaller;
-                background-color: #13092D;
-            }
 
             footer {
                 width: 100%;
@@ -134,22 +116,6 @@
                     width: 100%;
                 }
 
-                /* the order of the items is adjusted here for responsiveness!
-      since the sidebars would be too small on a mobile device.
-      feel free to play around with the order!
-      */
-                main {
-                    order: 1;
-                }
-
-                #leftSidebar {
-                    order: 2;
-                }
-
-                #rightSidebar {
-                    order: 3;
-                }
-
                 #navbar ul {
                     flex-wrap: wrap;
                 }
@@ -162,12 +128,12 @@
            </div>
 
            <div id="flex">
-            <aside id="leftSidebar" style="margin-right: 10px;">
-                   <img src="image/websurfin.jpg" width="160" height="auto" class="rounded">
+            <aside id="leftSidebar">
+                   <img src="image/websurfin.jpg" class="rounded" alt="cat on a computer">
             </aside>
                
             <main>
-               <h2>under construction</h2>
+               <img src="image/COOLLOGO.gif" class="center" alt="About Me">
                    <p>whats up....</p>
     <p> hello im lucy im trying to figure out how to make a website im very new at this</p>
                      
@@ -178,7 +144,7 @@
      <li>breathin</li>
      <li>frozen grapes yum</li>
    </ul>
-   <img src="image/walkWHT.gif" class="center">
+   <img src="image/walkWHT.gif" class="center" alt="horsie walking" title="horsie">
 
                </main>
                
