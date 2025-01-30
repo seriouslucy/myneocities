@@ -8,9 +8,8 @@
 <style>
     
             .rounded {
-            border-radius: 50%;
+            border-radius: 100px;
             width: 200px;
-            padding: 20px;
             }
     
 
@@ -20,26 +19,18 @@
                 background-image: url("/image/pinkhrtsbg.gif");
             }
 
-            * {
-                box-sizing: border-box;
-            }
 
             #container {
                 max-width: 1200px;
-                margin: 0 auto;
+                margin-bottom: 60px;
+                margin-left: 300px;
+                padding: 20px;
                 
             }
 
             #container a {
                 color: white;
                 font-weight: bold;
-            }
-
-            #header {
-                width: 100%;
-                height: 150px;
-                background-image: var(--header-image);
-                background-size: 100%;
             }
 
    
@@ -50,9 +41,7 @@
             }
 
             aside {
-             
-                width: 200px;
-                padding: 20px;
+                margin-left: 400px;   
                 font-size: smaller;
             }
 
@@ -61,24 +50,14 @@
                 background-color: white;
                 border-radius: 10px;
                 padding: 50px;
-                margin: 10px;
-
-                order: 2;
                 color: black;
             }
 
             footer {
-         
-                width: 100%;
-                height: 40px;
                 padding: 10px;
                
             }
 
-             h1 {
-               color: black;
-                text-align: center;
-}
             .center {
             display: block;
             margin-left: auto;
@@ -86,25 +65,24 @@
             width: auto;
                 }
           
-            h2,
-            h3 {
-                color: #fceaff;
-                text-align: center;
-            }
+    
 
             h1 {
-                font-size: 25px;
+                font-size: 100px;
                 text-align: center;
+                color: white;
             }
             
+            .about {
+                margin-left: 300px;
+            
+            }
 
 
             footer {
-                width: 100%;
-                height: 40px;
-                padding: 10px;
                 text-align: center;
             }
+
 
 
             @media only screen and (max-width: 1100px) {
@@ -112,28 +90,23 @@
                     flex-wrap: wrap;
                 }
 
-                aside {
-                    width: 100%;
-                }
+               
 
                 #navbar ul {
                     flex-wrap: wrap;
                 }
             }
         </style>
-<body>
-    <h1>About seriouslucy</h1>
-    <div id="container">
-           <div id="headerArea">
-           </div>
-
-           <div id="flex">
-            <aside id="leftSidebar">
-                   <img src="image/websurfin.jpg" class="rounded" alt="cat on a computer">
-            </aside>
+<body> 
+    
+        <aside>
+        <img src="image/COOLLOGO.gif"  alt="About Me" class="about" ></aside>
+        
+        <div id="container">
+           
                
             <main>
-               <img src="image/COOLLOGO.gif" class="center" alt="About Me">
+               
                    <p>whats up....</p>
     <p> hello im lucy im trying to figure out how to make a website im very new at this</p>
                      
@@ -148,8 +121,7 @@
 
                </main>
                
-           </div>
-          
+        
   <footer id="footer">
  <a href="https://seriouslucy.neocities.org"><img src="image/Back_Clr.gif"></a>
  </footer></div>
