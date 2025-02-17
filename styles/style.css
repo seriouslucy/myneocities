@@ -10,19 +10,12 @@
 }
 
 
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: auto;
-      }
-              :root {
-                  --header-image: url(image/whimyc.jpg);
-                  --body-bg-image: url("image/starsforever.gif");
-                  --content: #43256E;
-              }
-  
-   
+            .center {
+                display: block;
+                margin-left: auto;
+                margin-right: auto;
+                width: auto;
+                }
              
               body {
                   margin: 0;
@@ -48,11 +41,10 @@
               }
   
               #header {
-               
                   width: 100%;
                   background-color: #3b1850;
                   height: 100px;
-                  background-image: var(--header-image);
+                  background-image: url('/image/whimyc.jpg');
                   background-size: 100%;
               }
   
@@ -102,7 +94,6 @@
                   height: 500px;
                   padding: 20px;
                   font-size: smaller;
-                  /* this makes the sidebar text slightly smaller */
               }
   
   
@@ -182,20 +173,4 @@
                   background-color: #13092D;
               }
   
-          
-  
-  
-              @media only screen and (max-width: 1100px) {
-                  #flex {
-                      flex-wrap: wrap;
-                  }
-  
-                  aside {
-                      width: 100%;
-                  }
-  
-                  #navbar ul {
-                      flex-wrap: wrap;
-                  }
-              }
-        
+              
