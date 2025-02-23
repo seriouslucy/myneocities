@@ -1,0 +1,116 @@
+@font-face {
+    font-family: 'Venice';
+    src: url(/fonts/VeniceClassic.ttf);
+}
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url(/fonts/Special_Elite/SpecialElite-Regular.ttf);
+}
+
+body {
+   background-image: url(/image/page_background_animated_04.gif);
+
+  }
+
+  .header {
+    text-align: center;
+    font-family: 'Special Elite';
+    color: black;
+  }
+  
+  .container {
+    margin: 0 auto;
+  }
+
+.rabbit {
+    position: absolute;
+    top: 35em;
+    left: 30em;
+}
+  .bunni {
+     width: 120px;
+    transition-duration: 0.1s;
+  }
+
+.bunni:hover {
+    transform: translateY(-5px);
+}
+
+.baby {
+    position: absolute;
+    right: 31em;
+    top: 38em;
+}
+
+.babybunny {
+    width: 120px;
+    transition-duration: 0.1s;
+}
+
+.babybunny:hover {
+    transform: translateY(-5px);
+}
+
+
+.textbubble {
+    font-family: 'Special Elite';
+    position: inherit;
+    left: 7em;
+    bottom: 10em;
+    padding: 10px;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.textbubble:after {
+    content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #ffffff;
+	border-bottom: 0;
+	border-left: 0;
+	margin-left: -10px;
+	margin-bottom: -20px;
+}
+
+.textbubble2 {
+    font-family: 'Special Elite';
+    padding: 10px;
+    position: inherit;
+    right: 9em;
+    bottom: 3em;
+    width: 100px;
+	background: #ffffff;
+	border-radius: .4em;
+}
+
+.textbubble2:after {
+    content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-left-color: #ffffff;
+	border-right: 0;
+	border-bottom: 0;
+	margin-top: -10px;
+	margin-right: -20px;
+}
+
+.enter img {
+    position: relative;
+    width: 20%;
+    left: 47em;
+    bottom: 2em;
+}
+
+
+
+

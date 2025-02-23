@@ -1,0 +1,71 @@
+@font-face {
+    font-family: 'Venice';
+    src: url(/fonts/VeniceClassic.ttf);
+}
+
+body {
+    background-image: url("/image/nurple-static-bright.gif");
+}
+
+.nav {
+    font-family: 'Venice';
+    padding: 30px;
+    font-size: 30px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+}
+
+.nav a {
+    text-decoration: none;
+    transition-duration: 0.3s;
+    color: ghostwhite;
+}
+
+.nav a:hover {
+    transform: translateY(-5px);
+}
+
+
+
+.main {
+    display: flex;  
+    justify-content: space-between;
+    gap: 10px;
+    flex-direction: row;
+    
+}
+
+.content {
+    height: 1000px;
+    border: 1px solid black;
+    flex-grow: 2;
+    text-align: center;
+    background-color: ghostwhite;
+}
+
+.rightSidebar {
+    text-align: center;
+    border: none;
+    background-color: transparent;
+    color: black;
+    flex-grow: 1;
+}
+
+.leftSidebar {
+    border: none;
+    background-color:transparent;
+    color: black;
+    flex-grow: 1;
+    text-align: center;
+}
+
+.footer {
+    margin: 5px;
+    padding: 10px;
+    text-align: center;
+}
