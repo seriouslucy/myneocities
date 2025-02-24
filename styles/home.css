@@ -3,15 +3,20 @@
     src: url(/fonts/VeniceClassic.ttf);
 }
 
+
+@font-face {
+    font-family: 'Special Elite';
+    src: url(/fonts/SpecialElite-Regular.ttf);
+}
+
 body {
     background-image: url("/image/nurple-static-bright.gif");
 }
 
 .nav {
-    font-family: 'Venice';
+    font-family: 'Special Elite';
     padding: 30px;
     font-size: 30px;
-    
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -45,7 +50,8 @@ body {
     border: 1px solid black;
     flex-grow: 2;
     text-align: center;
-    background-color: ghostwhite;
+    background-color: black;
+    border-radius: 10px;
 }
 
 .rightSidebar {
@@ -69,3 +75,4 @@ body {
     padding: 10px;
     text-align: center;
 }
+

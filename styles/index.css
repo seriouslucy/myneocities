@@ -54,7 +54,10 @@ body {
 
 
 .textbubble {
-    font-family: 'Special Elite';
+    font-size: large;
+    font-family: 'Venice';
+    text-align: center;
+    text-wrap: balance;
     position: inherit;
     left: 7em;
     bottom: 10em;
@@ -79,7 +82,10 @@ body {
 }
 
 .textbubble2 {
-    font-family: 'Special Elite';
+    font-size: large;
+    font-family: 'Venice';
+    text-wrap: balance;
+    text-align: center;
     padding: 10px;
     position: inherit;
     right: 9em;
